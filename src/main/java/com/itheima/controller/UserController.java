@@ -16,6 +16,7 @@ public class UserController {
 	@RequestMapping("/showName.do")
 	@ResponseBody
 	public String showName() {
+		System.out.println("1231");
      return service.getString();
 
 	}
